@@ -5,6 +5,8 @@ import hasClass from "../src/library/classes/hasClass.js"
 let test = Compsoul.mount({ addClass, hasClass });
 
 
+  new test("li").addClass("test jest dobry czy nie jest")
+
   console.log(new test("li").hasClass("test jest dobry czy nie jest"));
 
 
